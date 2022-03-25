@@ -12,7 +12,7 @@ WHERE (em.birth_date BETWEEN '1952-01-01' AND '1955-12-31')
 ORDER BY em.emp_no;
 
 
--- Use Dictinct with Orderby to remove duplicate rows
+-- 10. Use Dictinct with Orderby to remove duplicate rows
 SELECT DISTINCT ON (rt.emp_no) rt.emp_no,
 rt.first_name,
 rt.last_name,
@@ -21,3 +21,11 @@ INTO unique_titles
 FROM retirement_titles as rt
 WHERE rt.to_date = ('9999-01-01')
 ORDER BY rt.emp_no;
+
+
+-- 16. Retrieve # of employees by most recent job title who are about to retire
+SELECT COUNT(ut.title), ut.title
+INTO retiring_titles
+FROM unique_titles as ut
+GROUP BY ut.title
+ORDER BY COUNT(ut.title) DESC;
