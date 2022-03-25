@@ -4,9 +4,7 @@
 
 ### **Purpose**
 
-The purpose of this analysis was to use SQL to:
-1. determine the number of retiring Pewlett Hackard employees per title and
-2. identify Pewlett Hackard employees who are eligible to participate in a mentorship program.
+The purpose of this analysis was to use SQL to analyze Pewlett Hackard employee data, determine the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program.
 
 ## Results
 
@@ -14,13 +12,13 @@ The purpose of this analysis was to use SQL to:
 
 - A total of 72,458 employees will be retiring. The image below details the breakdown of retiring employees by title:
 
-<img src="Resources/ret_titles.png">
+<img src="Resources/ret_titles.png" height="60%" width="60%">
 
 - 
 
 - A total of 1,549 employees are eligible to participate in a mentorship program. The image below provides the breakdown by title:
 
-<img src="Resources/mentorship_titles.png">
+<img src="Resources/ment_titles.png" height="60%" width="60%">
 
 -
 
