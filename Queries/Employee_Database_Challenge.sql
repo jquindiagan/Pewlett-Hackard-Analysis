@@ -1,3 +1,18 @@
+-- STARTER CODE: Use Dictinct with Orderby to remove duplicate rows
+SELECT DISTINCT ON (______) _____,
+______,
+______,
+______
+
+INTO nameyourtable
+FROM _______
+WHERE _______
+ORDER BY _____, _____ DESC;
+
+
+-- DELIVERABLE 1
+
+-- 1-5. Create a new table from Employees and Titles
 SELECT em.emp_no,
     em.first_name,
     em.last_name,
@@ -12,7 +27,8 @@ WHERE (em.birth_date BETWEEN '1952-01-01' AND '1955-12-31')
 ORDER BY em.emp_no;
 
 
--- 10. Use Dictinct with Orderby to remove duplicate rows
+-- 8-13. Create a new table with no duplicate rows
+-- Use Dictinct with Orderby to remove duplicate rows
 SELECT DISTINCT ON (rt.emp_no) rt.emp_no,
 rt.first_name,
 rt.last_name,
@@ -23,9 +39,29 @@ WHERE rt.to_date = ('9999-01-01')
 ORDER BY rt.emp_no;
 
 
--- 16. Retrieve # of employees by most recent job title who are about to retire
+-- 16-19. Retrieve # of employees by most recent job title who are about to retire
 SELECT COUNT(ut.title), ut.title
 INTO retiring_titles
 FROM unique_titles as ut
 GROUP BY ut.title
 ORDER BY COUNT(ut.title) DESC;
+
+
+-- DELIVERABLE 2
+
+-- 1-9. Create a Mentorship Eligibility table that holds the employees who are eligible to participate in a mentorship program
+SELECT DISTINCT ON (em.emp_no) em.emp_no,
+em.first_name,
+em.last_name,
+em.birth_date,
+de.from_date,
+de.to_date,
+ti.title
+INTO mentorship_eligibility
+FROM employees as em
+JOIN dept_emp as de
+ON em.emp_no = de.emp_no
+JOIN titles as ti
+ON em.emp_no = ti.emp_no
+WHERE (de.to_date = ('9999-01-01')) AND (em.birth_date BETWEEN ('1965-01-01') AND ('1965-12-31'))
+ORDER BY em.emp_no;
