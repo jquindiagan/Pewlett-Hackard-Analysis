@@ -29,6 +29,6 @@ The purpose of this analysis was to use SQL to analyze Pewlett Hackard employee 
 
 - There are about 45 times more retiring staff in each department than there are staff who are membership eligible, which is more than enough for each department to mentor the next generation of Pewlett Hackard employees. 
 
-    <img src="Resources/retiring_dept.png" height="35%" width="35%" align="left">
+    <img src="Resources/retiring_dept.png" height="38%" width="38%" align="left">
     
     <img src="Resources/mentor_dept.png" height="35%" width="35%">
