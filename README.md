@@ -8,23 +8,21 @@ The purpose of this analysis was to use SQL to analyze Pewlett Hackard employee 
 
 ## Results
 
-### **Analysis of Retiring Employees per Title**
-
 - A total of 72,458 employees will be retiring. The image below details the breakdown of retiring employees by title:
 
-    <img src="Resources/ret_titles.png" height="50%" width="50%" align="center">
+    <img src="Resources/ret_titles.png" height="40%" width="40%" align="center">
 
-- A look at the total titles (left table) from unique titles (right table) indicates that multiple employees have had title changes during their tenure at Pewlett Hackard.
+- A look at the total titles (left table) from unique titles (right table) indicates that multiple employees have had title or department changes during their tenure at Pewlett Hackard.
 
     <img src="Resources/total_titles.png" height="38%" width="38%" align="left">
     
-    <img src="Resources/ret_titles.png" height="35%" width="35%">
+    <img src="Resources/ret_titles.png" height="38%" width="38%">
+
+- The max number of title changes an employee has had is three.
 
 - A total of 1,549 employees are eligible to participate in a mentorship program. The image below provides the breakdown by title:
 
-    <img src="Resources/ment_titles.png" height="50%" width="50%" align="center">
-
--
+    <img src="Resources/ment_titles.png" height="40%" width="40%" align="center">
 
 ## Summary
 

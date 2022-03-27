@@ -76,18 +76,26 @@ GROUP BY me.title
 ORDER BY COUNT(me.title) DESC;
 
 
--- Retrieve count of unique titles
+-- Retrieve count of unique retirement titles
 SELECT COUNT(ut.emp_no), ut.title
 FROM unique_titles as ut
 GROUP BY ut.title
 ORDER BY COUNT(ut.title) DESC;
 
 
--- Retrieve count of total titles
+-- Retrieve count of total retirement titles
 SELECT COUNT(rt.emp_no), rt.title
 FROM retirement_titles as rt
 GROUP BY rt.title
 ORDER BY COUNT(rt.title) DESC;
+
+
+-- Retrieve max count of title changes
+SELECT COUNT(rt.emp_no), rt.emp_no
+FROM retirement_titles as rt
+GROUP BY rt.emp_no
+HAVING (COUNT(rt.emp_no) > 1)
+ORDER BY COUNT(rt.emp_no) DESC;
 
 
 -- Retrieve # of mentorship eligibility employees by title
