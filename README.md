@@ -12,13 +12,13 @@ The purpose of this analysis was to use SQL to analyze Pewlett Hackard employee 
 
 - A total of 72,458 employees will be retiring. The image below details the breakdown of retiring employees by title:
 
-<img src="Resources/ret_titles.png" height="60%" width="60%">
+    <img src="Resources/ret_titles.png" height="50%" width="50%" align="center">
 
 - 
 
 - A total of 1,549 employees are eligible to participate in a mentorship program. The image below provides the breakdown by title:
 
-<img src="Resources/ment_titles.png" height="60%" width="60%">
+    <img src="Resources/ment_titles.png" height="50%" width="50%" align="center">
 
 -
 
