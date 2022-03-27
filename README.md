@@ -18,7 +18,9 @@ The purpose of this analysis was to use SQL to analyze Pewlett Hackard employee 
     
     <img src="Resources/ret_titles.png" height="38%" width="38%">
 
-- The max number of title changes an employee has had is three.
+- The max number of title changes an employee has had is three. Code used below:
+
+    <img src="Resources/title_count.png" height="38%" width="38%">
 
 - A total of 1,549 employees are eligible to participate in a mentorship program. The image below provides the breakdown by title:
 
