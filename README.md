@@ -32,4 +32,4 @@ The purpose of this analysis was to use SQL to analyze Pewlett Hackard employee 
 
 - There are about 50 times
 
-    <img src="Resources/mentor_dept.png" height="50%" width="50%" align="center"> <img src="Resources/retiring_dept.png" height="50%" width="50%" align="left">
+    <img src="Resources/retiring_dept.png" height="50%" width="50%" align="left"> <img src="Resources/mentor_dept.png" height="50%" width="50%">
