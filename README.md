@@ -24,12 +24,11 @@ The purpose of this analysis was to use SQL to analyze Pewlett Hackard employee 
 
 ## Summary
 
-- How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+- A total of 72,458 employees will be retiring. Pewlett Hackard should begin filling positions as soon as retirement dates are announced.
 
-    - 
 
-- Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+- There are about 45 times more retiring staff in each department than there are staff who are membership eligible, which is more than enough for each department to mentor the next generation of Pewlett Hackard employees. 
 
-- There are about 50 times
-
-    <img src="Resources/retiring_dept.png" height="50%" width="50%" align="left"> <img src="Resources/mentor_dept.png" height="50%" width="50%">
+    <img src="Resources/retiring_dept.png" height="35%" width="35%" align="left">
+    
+    <img src="Resources/mentor_dept.png" height="35%" width="35%">
