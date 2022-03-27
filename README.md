@@ -23,3 +23,13 @@ The purpose of this analysis was to use SQL to analyze Pewlett Hackard employee 
 -
 
 ## Summary
+
+- How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+
+    - 
+
+- Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+
+- There are about 50 times
+
+    <img src="Resources/mentor_dept.png" height="50%" width="50%" align="center"> <img src="Resources/retiring_dept.png" height="50%" width="50%" align="left">
